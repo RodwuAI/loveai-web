@@ -1,0 +1,36 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes spin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+      .spinner {
+        animation: spin 2s linear infinite;
+        transform-origin: 50px 50px;
+      }
+    </style>
+  </defs>
+
+  <g class="spinner">
+    <!-- Outer ring -->
+    <circle cx="50" cy="50" r="45" fill="none" stroke="#F59E8B" stroke-width="4" opacity="0.2"/>
+
+    <!-- Progress ring -->
+    <circle
+      cx="50"
+      cy="50"
+      r="45"
+      fill="none"
+      stroke="#F59E8B"
+      stroke-width="4"
+      stroke-dasharray="141 360"
+      stroke-linecap="round"
+    />
+
+    <!-- Inner decorative dots -->
+    <circle cx="50" cy="12" r="3" fill="#D4A5D4" opacity="0.8"/>
+    <circle cx="74" cy="26" r="2.5" fill="#D4A5D4" opacity="0.6"/>
+    <circle cx="88" cy="50" r="2" fill="#D4A5D4" opacity="0.4"/>
+  </g>
+</svg>

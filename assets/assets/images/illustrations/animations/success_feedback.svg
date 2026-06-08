@@ -1,0 +1,21 @@
+<svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 五角星，外径约 10，中心 0,0 -->
+    <path id="star" d="M0 -10 L2.94 -4.05 L9.51 -3.09 L4.76 1.55 L5.88 8.09 L0 5 L-5.88 8.09 L-4.76 1.55 L-9.51 -3.09 L-2.94 -4.05 Z"/>
+  </defs>
+
+  <!-- 背景圆 -->
+  <circle cx="60" cy="60" r="55" fill="#A8D8A8" opacity="0.15"/>
+
+  <!-- 对勾 -->
+  <path d="M40 62 L54 76 L82 46" fill="none" stroke="#5FB85F" stroke-width="6"
+        stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- 6 颗星环绕 -->
+  <use href="#star" fill="#F4C274" transform="translate(60 14)"/>
+  <use href="#star" fill="#A8D8A8" transform="translate(98 34) scale(0.8)"/>
+  <use href="#star" fill="#F4C274" transform="translate(100 86) scale(0.7)"/>
+  <use href="#star" fill="#A8D8A8" transform="translate(60 106) scale(0.85)"/>
+  <use href="#star" fill="#F4C274" transform="translate(22 86) scale(0.7)"/>
+  <use href="#star" fill="#A8D8A8" transform="translate(20 34) scale(0.8)"/>
+</svg>

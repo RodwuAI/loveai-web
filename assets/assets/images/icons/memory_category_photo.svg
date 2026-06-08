@@ -1,0 +1,22 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <!-- Frame -->
+  <rect x="6" y="8" width="36" height="28" rx="2" fill="#FFE5D4" stroke="#F59E8B" stroke-width="1.5"/>
+
+  <!-- Inner content area -->
+  <rect x="8" y="10" width="32" height="24" fill="#FFF8F6" rx="1"/>
+
+  <!-- Sky (gradient simulation) -->
+  <rect x="8" y="10" width="32" height="14" fill="#F0E5FF" opacity="0.6"/>
+
+  <!-- Ground/landscape -->
+  <ellipse cx="24" cy="30" rx="16" ry="6" fill="#D4A5D4" opacity="0.4"/>
+
+  <!-- Sun/circle element -->
+  <circle cx="30" cy="16" r="4" fill="#F4C274" opacity="0.7"/>
+
+  <!-- Mountain/hill shape -->
+  <path d="M 8 28 L 18 18 L 28 24 L 40 14 L 40 34 Z" fill="#D4A5D4" opacity="0.3"/>
+
+  <!-- Photo corner mark -->
+  <circle cx="12" cy="12" r="1" fill="#F59E8B" opacity="0.5"/>
+</svg>

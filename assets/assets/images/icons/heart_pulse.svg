@@ -1,0 +1,43 @@
+<svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      @keyframes heartPulse {
+        0%, 100% { transform: scale(1); }
+        25% { transform: scale(1.15); }
+      }
+      .heart {
+        animation: heartPulse 1.2s ease-in-out infinite;
+        transform-origin: 24px 22px;
+      }
+    </style>
+  </defs>
+
+  <!-- Pulse waves (background) -->
+  <circle cx="24" cy="22" r="8" fill="none" stroke="#F59E8B" stroke-width="1.5" opacity="0.3"/>
+  <circle cx="24" cy="22" r="14" fill="none" stroke="#F59E8B" stroke-width="1" opacity="0.15"/>
+
+  <!-- Main heart -->
+  <g class="heart">
+    <path d="M 24 36
+             C 24 36 10 26 10 16
+             C 10 10 14 8 18 8
+             C 21 8 24 10 24 10
+             C 24 10 27 8 30 8
+             C 34 8 38 10 38 16
+             C 38 26 24 36 24 36"
+          fill="#F59E8B"
+          stroke="#F59E8B"
+          stroke-width="0.5"
+    />
+  </g>
+
+  <!-- Inner highlight -->
+  <path d="M 24 36
+           C 24 36 16 28 16 18
+           C 16 13 19 11 22 11
+           C 24 11 24 12 24 12
+           C 24 12 24 11 24 11"
+        fill="#FFD4E5"
+        opacity="0.6"
+  />
+</svg>
